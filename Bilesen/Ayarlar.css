@@ -1,0 +1,11 @@
+.Etiket {
+  color: navy;
+}
+
+.GirisAlaniAktif {
+  background-color: #30d5c8;
+}
+
+.GirisAlaniPasif {
+  background-color: gray;
+}
