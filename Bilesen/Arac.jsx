@@ -5,7 +5,7 @@ var Arac = {
     //var degerler = deger.split(";");
     //degerer.forEach(function(){item});....
     var deger = localStorage.getItem(degiskenAdi);
-    if (deger === undefined || deger === "") return varsayilanDeger;
+    if (deger === undefined || deger === null || deger === "") return varsayilanDeger;
     else return deger;
   },
 
